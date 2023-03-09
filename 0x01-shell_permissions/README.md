@@ -4,3 +4,4 @@ ALX TASK ON SHELL PERMISSIONS
 2-groups; Script that prints the list of groups a user is in  
 3-new_owner;script that changes the file owner to the user betty
 4-empty; script that creates an empty file
+5-execute; A script that adds execute permission to current user
