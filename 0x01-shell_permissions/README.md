@@ -3,3 +3,4 @@ ALX TASK ON SHELL PERMISSIONS
 1-who_am_i; Script that prints the effictive username of the user 
 2-groups; Script that prints the list of groups a user is in  
 3-new_owner;script that changes the file owner to the user betty
+4-empty; script that creates an empty file
