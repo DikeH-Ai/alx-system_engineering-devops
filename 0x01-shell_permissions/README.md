@@ -7,3 +7,4 @@ ALX TASK ON SHELL PERMISSIONS
 5-execute; A script that adds execute permission to current user
 6-multiple_permissions; a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 7-everybody;a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+8-James_Bond; script to give other group alll permission
