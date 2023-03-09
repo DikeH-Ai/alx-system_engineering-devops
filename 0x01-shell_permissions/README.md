@@ -5,3 +5,4 @@ ALX TASK ON SHELL PERMISSIONS
 3-new_owner;script that changes the file owner to the user betty
 4-empty; script that creates an empty file
 5-execute; A script that adds execute permission to current user
+6-multiple_permissions; a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
