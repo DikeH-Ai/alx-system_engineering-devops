@@ -1,2 +1,2 @@
 #!/bin/bash
-sed "/*root*/p" /etc/passwd
+sed "/root/p" /etc/passwd
