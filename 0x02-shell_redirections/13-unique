@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u | xargs -I {} echo "{}" 
+tr ' ' '\n'| sort | uniq -u 
