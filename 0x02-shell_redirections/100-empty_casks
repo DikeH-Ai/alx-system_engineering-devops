@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type . -empty -printf "%f\n" | sed 's/\.\///'
+find . -depth -type f -empty -printf "%f\n" -o -type d -empty -printf "%f\n" | sed '/^\.$/d'
