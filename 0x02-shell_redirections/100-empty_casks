@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -depth -type f -empty -printf "%f\n" -o -type d -empty -printf "%f\n" | sed '/^\.$/d'
+find . -depth -type f -empty -printf "%f\n" -o -type d -empty -printf "%f\n" | sed '/^\.$/d'| xargs -I{} echo "{}"
