@@ -2,7 +2,7 @@
 #a Bash script that displays Best School 10 timesi
 #4 badluck, 8 is your chance
 i=0
-until [ $i -eq 10 ];
+while [ $i -lt 10 ];
 do
 	if [ $i == 3 ]
 	then
