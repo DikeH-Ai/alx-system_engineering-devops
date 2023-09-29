@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #a Bash script that displays the contents
 #ls command
-spec="-"
 for i in *
 do
 	echo "${i#*-}"
