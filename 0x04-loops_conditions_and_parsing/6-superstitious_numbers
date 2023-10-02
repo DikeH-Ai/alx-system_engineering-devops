@@ -2,7 +2,7 @@
 #a Bash script that displays numbers from 1 to 20
 #and prints set word at fiffernt iteration
 i=0
-while [ $i -lt 21 ]
+while [ $i -le 20 ]
 do
 	case $i in
 	4)
