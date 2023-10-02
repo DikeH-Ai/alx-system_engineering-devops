@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# a Bash script that displays the content
+#of the file /etc/passwd.
+filepath="/etc/passwd"
+while IFS= read -r sen;
+do
+	id=$(echo "$sen" | cut -d: f3)
+	homedir=$(echo "$sen" | cut -d: -f6)
+	user=$(echo "$sen" | cut -d: -f1)
+	echo "$user:$id:$homedir"
+done < "$filepath"
