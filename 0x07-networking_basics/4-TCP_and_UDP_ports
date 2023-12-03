@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#task on TCP/ip ports
-netstat -pl
