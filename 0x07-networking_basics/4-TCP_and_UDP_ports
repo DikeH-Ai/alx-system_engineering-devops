@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#list open ports
 netstat -lpt
