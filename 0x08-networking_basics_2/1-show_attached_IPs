@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays all active device IPv4 addresses
+
+ip -4 addr | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | tr '\n' '\n'
+
