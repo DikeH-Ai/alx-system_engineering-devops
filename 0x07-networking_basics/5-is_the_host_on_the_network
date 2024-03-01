@@ -2,8 +2,10 @@
 # script that pings IP address
 ipaddres="${1}"
 
+n=$(basename "$0")
+
 if [ "$#" -ne 1 ]; then
-        echo "Usage: $0 {IP_ADDRESS}"
+        echo "Usage: ${n} {IP_ADDRESS}"
         exit 1
 fi
 
