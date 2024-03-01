@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script displays listinin /open ports
+
+netstat -l -p

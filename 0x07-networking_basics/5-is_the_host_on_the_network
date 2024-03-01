@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script that pings IP address
+ipaddres="${1}"
+
+if [ "$#" -ne 1 ]; then
+        echo "Usage: $0 {IP_ADDRESS}"
+        exit 1
+fi
+
+ping -c 5 "${ipaddres}"
+
