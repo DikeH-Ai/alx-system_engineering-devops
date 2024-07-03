@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# login using public key
+SERVER_ADDRESS="54.236.56.237"
+USER="ubuntu"
+PRIVATE_KEY="~/.ssh/school"
+ssh -i $PRIVATE_KEY $USER@$SERVER_ADDRESS

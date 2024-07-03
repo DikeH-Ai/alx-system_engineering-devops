@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# generate ssh-keygen based on requirements
+KEY_NAME="school"
+KEY_BITS=4096
+PASSPHRASE="betty"
+ssh-keygen -t rsa -b $KEY_BITS -f ~/.ssh/$KEY_NAME -N $PASSPHRASE
